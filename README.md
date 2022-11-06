@@ -23,12 +23,11 @@ and methods:
 
 (Let's suppose your bank account balance is $1,500)
 
-First the user has to enter a password (PIN = 123456 or whatever). When the password matches the system proceed toward the next features.
-When a user passes sign-in procedures, he can use all these features:
+First the user has to enter a password (PIN = 123456 or whatever). When the password matches, the system proceeds to the next features:
 
 1: Withdraw Amount
 
-You can't withdraw more than your amount in account
+You can't withdraw more than the amount in your account
 
 2: Deposit Amount
 
@@ -38,4 +37,4 @@ You can deposit any value greater than zero
 
 Will display your amount in your bank account
 
-While depositing or withdrawing amount, he just has to enter the amount then the system calculates the total remaining balance of the respective account and displays to the user. User has possibility to repeat withdraw, deposit and balance until he decides to log off!
+When depositing or withdrawing, the user enters the amount they want to withdraw or deposit. The system then calculates the total remaining balance and displays it to the user. The user has the option to withdraw, deposit or check balance multiple times, until they decide to log off!
