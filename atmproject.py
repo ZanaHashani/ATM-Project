@@ -20,11 +20,11 @@ class bank_account():
         try:
             deposit = float(input("Enter amount you want to deposit: "))
             if deposit > 0:
-                print(f"You have successfully deposited ${self.deposit}")
+                print(f"You have successfully deposited ${deposit}")
+                self.balance += deposit
+                print(f"You now have ${self.balance} in your account")
             else:
-                print("You cannot deposit this amount")
-            self.balance += deposit
-            print(f"You now have {self.balance} in your account")
+                print("You cannot deposit this amount")            
         except:
             print("Error. Please enter a value.")
 
